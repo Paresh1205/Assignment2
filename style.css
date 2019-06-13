@@ -1,0 +1,35 @@
+.self-container{
+    padding-right: 100px;
+    padding-left:100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.container{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.navbar-nav{
+    margin-left: 100px;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #dddddd;
+    background: #dddddd;
+}
+.navbar-inverse {
+ background-color: red;
+ border-color: #dddddd; 
+ border-radius: 0px;
+}
+.nav li:hover{
+    background:#D6D6D6;
+    
+}
+.navbar-inverse .navbar-nav > li > a {
+margin-left: 50px;
+margin-right: 50px;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+    color: #3B5B5E;
+    font-weight: 500;
+}
