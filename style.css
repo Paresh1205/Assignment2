@@ -1,8 +1,15 @@
+body article{
+    background:#f5f5f5;
+}
 .self-container{
     padding-right: 100px;
     padding-left:100px;
     margin-right: auto;
     margin-left: auto;
+}
+.align{
+    padding-left: 80px;
+    padding-right: 80px;
 }
 .container{
     padding-left: 50px;
@@ -16,12 +23,13 @@
     background: #dddddd;
 }
 .navbar-inverse {
- background-color: red;
+ background-color: #dddddd;
  border-color: #dddddd; 
  border-radius: 0px;
+ margin-bottom: 0px;
 }
 .nav li:hover{
-    background:#D6D6D6;
+    background:#f5f5f5;
     
 }
 .navbar-inverse .navbar-nav > li > a {
@@ -30,6 +38,89 @@ margin-right: 50px;
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
-    color: #3B5B5E;
+    color: rgb(63, 117, 122);
     font-weight: 500;
+}
+h1{
+    text-align: right;
+    margin-bottom: 0px;
+}
+#site>h2{
+    color: grey;
+    margin-top: 0px;
+    text-align: right;
+}
+#fwd{
+    text-align: left;
+    border-left: 1px solid lightgrey;
+}
+#search{
+    text-align: right;
+    margin-top: 30px;
+}
+#search button{
+    background: #01c0f0;
+    color: white;
+}
+aside ul li{
+    color: #01c0f0;
+    padding: 3px 0px 7px;
+    font-size: 18px;
+    border-bottom: 1px solid lightgrey;
+    list-style: none;
+}
+
+#newsletter #newsltr{
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 30px;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    background: #01c0f0;
+}
+#newsletter input{
+    width: 250px;
+}
+#newsletter div a{
+    float: left;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+#newsletter div button{
+    margin-left: 63px;
+    margin-top: 10px;
+    color: white;
+    background: #016fab;
+    border: 0px;
+    padding: 1px 10px;
+}
+#newsletter #newsltr h3,#newsletter div a{
+    color: white;
+}
+#news{
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 25px;
+}
+#news h3{
+    margin-bottom: 22px;
+}
+#about{
+    margin-top: 20px;
+    padding-right: 50px;
+}
+#about h3{
+    margin-left: 30px;
+}
+#about div{
+    margin-top: 15px;
+}
+#abt_a img,#abt_b img,#abt_c img{
+    width: 185px;
+}
+#abt_a h4,#abt_b h4,#abt_c h4{
+    color: #76b3b9;
+}
+#abt_a p,#abt_b p,#abt_c p{
+    color: grey;
 }

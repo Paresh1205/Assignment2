@@ -14,53 +14,113 @@
 
 <body class="self-container">
 
-        <header>
-            <nav class="navbar navbar-inverse navStart">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed " data-toggle="collapse"
-                        data-target="#bs-example-navbar-collapse-1" aria-expanded="true">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
+    <header>
+        <nav class="navbar navbar-inverse navStart">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed " data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="true">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse container" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-left navigation">
+                    <li><a href="#">HOMEPAGE</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">OUR ARTICLES</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                    <li><a href="#">SITE MAP</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </nav>
+    </header>
+
+    <article class="col-md-12 align">
+        <section class="col-md-4" id="site" style="padding-bottom: 40px">
+            <h1>STUDENT'S</h1>
+            <h2>SITE</h2>
+        </section>
+        <section class="col-md-8">
+            <div class="col-md-6" id="fwd">
+                <h2>MOVE FORWARD<br>
+                    <span style="color:#01c0f0">WITH YOUR EDUCATION</span></h2>
+            </div>
+            <div role="search" class="col-md-6" id="search">
+                <input type="text" id="Book-Search" aria-label="search">
+                <button role="button" type="submit" aria-disabled="false">SEARCH</button>
+            </div>
+
+        </section>
+    </article>
+
+    <article class="align col-md-12">
+        <aside class="col-md-4" role="complementary">
+            <h3>CATEGORIES</h3>
+            <ul type="arrow">
+                <i class="fa fa-play" aria-hidden="true"></i>
+                <li>Programs</li>
+                <li>>Student Info</li>
+                <li>>Teachers</li>
+                <li>>Description</li>
+                <li>>Administrators</li>
+                <li>>Basic Information</li>
+                <li>>Vacancies</li>
+                <li>Calendar</li>
+            </ul>
+        </aside>
+        <img src="images/banner.png" class="col-md-8" role="banner">
+    </article>
+
+    <article class="align col-md-12">
+        <section class="col-md-4" id="newsletter" role="form">
+            <div id="newsltr" class="col-md-8">
+                <h3>NEWSLETTER</h3>
+                <input type="text" placeholder="Enter your email here.." aria-label="Enter your email here..">
+                <a href="#">Unubscribe</a>
+                <button>Submit</button>
+            </div>
+            <div id="news" class="col-md-8">
+                <h3>FRESH<span style="color: gray">NEWS</span></h3>
+                <span>June 30,2010</span>
+            </div>
+        </section>
+        <section class="col-md-8" id="about">
+            <h3>ABOUT<span style="color: gray">TEAM</span></h3>
+            <div class="col-md-12">
+
+                <div class="col-md-4" id="abt_a">
+                    <img src="images/a.png">
+                    <h4>Team Member One</h4>
+                    <p>He is the Most Important<br> Member of Team</p>
                 </div>
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse container" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-left navigation">
-                        <li><a href="#">HOMEPAGE</a></li>
-                        <li><a href="#">ABOUT</a></li>
-                        <li><a href="#">OUR ARTICLES</a></li>
-                        <li><a href="#">CONTACT US</a></li>
-                        <li><a href="#">SITE MAP</a></li>
-                    </ul>
+
+                <div class="col-md-4" id="abt_b">
+                    <img src="images/b.png">
+                    <h4>Another Team Member</h4>
+                    <p>We are completely lost on<br>what he's responsible for</p>
                 </div>
-                <!-- /.navbar-collapse -->
-            </nav>
-        </header>
-    
 
+                <div class="col-md-4" id="abt_c">
+                    <img src="images/c.png">
+                    <h4>Another Team Member</h4>
+                    <p>We are completely lost on<br>what he's responsible for</p>
+                </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+            </div>
+        </section>
+    </article>
 
 
 
 
 </body>
-<script src="js/jquery-3.3.1.js"></script>
+<script src="js/jquery-3.3.1.js">
+</script>
 <script src="js/bootstrap.js"></script>
 
 </html>
