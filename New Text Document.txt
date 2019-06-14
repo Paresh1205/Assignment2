@@ -1,0 +1,48 @@
+aside ul li a {
+    font-size: 18px;
+    position: relative;
+    padding-left: 8px;
+    margin-left: 15px;
+ 
+  }
+ 
+aside ul li a:before {
+    content: "\25BA \0020";
+    font-size: 10px;
+    position: absolute;
+    top: 3px;
+    left: -12px;
+  }
+ 
+
+
+<ul>
+
+<li><a
+href="#"> Programs</a></li>
+
+<li
+><a 
+href="#">Student Info</a></li>
+
+<li><a
+href="#">Teachers</a>
+</li>
+
+<li><a
+href="#">Descriptions</a></li>
+
+<li><a
+href="#">Administrator</a></li>
+
+<li><a
+href="#">Basic Information</a></li>
+
+<li><a
+href="#">Vacancies</a></li>
+
+<li><a
+href="#">Calendar</a></li>
+
+</ul>
+
